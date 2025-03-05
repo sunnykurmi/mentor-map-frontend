@@ -429,9 +429,9 @@ export default function GenerateRoadmap() {
             theme: "dark",
           });
 
-          // setTimeout(() => {
-          //   navigate("/");
-          // }, 3500); // Navigate after the second toast
+          setTimeout(() => {
+            navigate("/");
+          }, 3500); // Navigate after the second toast
         }, 500); // Second toast after the first toast
       }, 2000); // First toast after 1 second
 
